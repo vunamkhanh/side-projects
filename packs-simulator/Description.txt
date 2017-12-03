@@ -1,0 +1,7 @@
+# Description of files in this folder
+
+Collection_Specs.txt: To be used in CollectionSimulator.java. Contains description and properties of the game to be simulated. Each line corresponds to a different rarity of cards within a game. Within each line, the first integer is the opening chance (to be divided by 100), the second is the crafting value, the third is the disenchant value, the fourth is the number of cards with the given rarity and the fifth is the maximum number of copies in a deck.
+
+CollectionSimulator.java: Contains the main() method. This program takes custom input from an external text file, and run Monte Carlo simulations repeatedly to determine the number of pack openings needed until an user can obtain a full collection. User has the option of running a full simulation from an empty collection, or a custom collection depending on personal collection records.
+
+Collections.txt: Output by CollectionSimulator.java. Releases the number of cards contained within each rarity, when the number of crafting materials is sufficient to create the rest of the collection without the need for further pack openings.
